@@ -1,0 +1,65 @@
+# =====================================
+# React / Frontend (MERN)
+# =====================================
+
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Local environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Coverage reports
+coverage/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+*.save
+
+# Lock files (optional — comment out if you want to track)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Testing
+jest-test-results.json
+jest-cache/
+cypress/videos/
+cypress/screenshots/
+
+# Misc build tools
+.cache/
+.eslintcache
+stylelintcache/
+.parcel-cache/
+vite.config.js.timestamp*
+
+# Local firebase, vercel, or netlify settings
+.firebase/
+.vercel/
+.netlify/
